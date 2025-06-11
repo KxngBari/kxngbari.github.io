@@ -11,7 +11,7 @@
       background-color: #000;
       height: 100%;
       width: 100%;
-      overflow: auto; /* allows scrolling if user zooms */
+      overflow: auto; /* Allow scrolling only if user zooms */
     }
 
     body {
@@ -20,14 +20,16 @@
       align-items: center;
     }
 
-    video {
+    img {
       max-width: 100vw;
       max-height: 100vh;
+      height: auto;
+      width: auto;
       object-fit: contain;
     }
   </style>
 </head>
 <body>
-  <video src="mum.mp4" autoplay muted loop playsinline></video>
+  <img src="mum.jpg" alt="In Memory of Ibironke Adebari, the best mom ever." />
 </body>
 </html>
